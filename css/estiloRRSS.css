@@ -199,23 +199,13 @@
         background-color: transparent;
         text-decoration: none;
         }
-         }
-
-.titulo {
-        padding-top: 250px;
-        width: 100%;
-        text-align: center;
-        background-color: black;
-        font-family: 'Antique';
-        color: black;
-        font-size: 100px;
-        -webkit-text-stroke-color: white;
-        -webkit-text-stroke-width: 4px;
         }
 
-.tabla {
+
+.tabla {    
+            display: flex;
+            margin-top: 350px;
             width: 100%;
-            margin: 0;
             background-color: black;
        }
         th, td {
@@ -244,3 +234,8 @@
             font-family: 'Impact';
             font-size: 25px;
        }
+
+.bannerv {
+         padding-left: 300px;
+         padding-top: 375px;
+         }
